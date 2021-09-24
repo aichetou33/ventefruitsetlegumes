@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Fruits&Légumes</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style_css.css">
+</head>
+<body>
+	 <nav>    
+    <!--Barre de navigation----------------------------------------->
+    <div class="navigation">
+        <a href="main.html" class="logo"><img src="logo.png"></a>
+        <ul class="menu">
+            <li><a href="fruit.php">Catalogue</a></li>
+            <li><a href="hebdo.html" >Panier hebdo</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="right-menu">
+            
+            <a href="compte.php" class="user">
+                <i class="far fa-user"></i>
+            </a>
+            <a href="panier.php">
+                <i class="fas fa-shopping-cart">
+                </i>
+            </a>
+        </div>
+        </div>
+    </nav>
+	<script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+
+
+	<!--Bootstrap caroussel-->
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+		<li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+		<li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner">
+	<div class="carousel-item active" style="background-image: url('slide1.jpg')">
+		<div class="container">
+			<h1>Des fruits et légumes bio</h1>
+			<p>Une grande variété de fruits et légumes dans notre catalogue</p>
+			
+		</div>
+	</div>
+	<div class="carousel-item" style="background-image: url('slide3.jpg')">
+		<div class="container">
+			<h1>Panier hebdomadaire</h1>
+			<p>Un panier constitué de fruits et légumes au gré des saisons</p>
+			
+		</div>
+	</div>
+	<div class="carousel-item" style="background-image: url('slide2.jpg')">
+		<div class="container">
+			<h1>Livraison groupé</h1>
+			<p>Faites-vous livrer avec vos voisins</p>
+			
+		</div>
+	</div>
+	</div>
+	 <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+</div>
+
+ <!-- Les affichages des livraisons -->
+ <h3>Nos services</h3>
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Livraison ponctuelle. <span class="text-muted">vos courses livrés chez vous.</span></h2>
+        <p class="lead">Ce service est une livraison normale, on vous livre vos fruits et légumes chez vous</p>
+      </div>
+      <div class="col-md-5">
+        <img src="ponctuel.jpg" width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading" id="group">Livraison groupée. <span class="text-muted">Avec vos voisins !</span></h2>
+        <p class="lead">Ce service vous propose de vous faire livrer en groupe dans un même quartier, afin de faciliter les livraisons et pourquoi pas partager un bon moment entre voisins :)</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="voisin.jpg" width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Livraison hebdomadaire. <span class="text-muted">Un panier chaque semaine</span></h2>
+        <p class="lead">Ce service vous propose de vous faire livrer un panier chaque semaine selon la saison actuelle, ce panier sera composé par les soins du producteurs avec différents fruits et légumes de saisons.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="hebdo.jpg" width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<!--pied de page-->
+<footer>
+	<p><a href="main.html">Back to top</a></p>
+    <p>&copy; 2020-2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</footer>
+
+</body>
+</html>
